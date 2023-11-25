@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibrary", "GeometryLibrary\GeometryLibrary.csproj", "{7726F038-F2DC-4BA6-BB73-8123BFFC94F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibrary.WebApi", "GeometryLibrary.WebApi\GeometryLibrary.WebApi.csproj", "{810B88ED-C14A-4224-8596-16FC2B2B8649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryLibrary.WebApi", "GeometryLibrary.WebApi\GeometryLibrary.WebApi.csproj", "{810B88ED-C14A-4224-8596-16FC2B2B8649}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7726F038-F2DC-4BA6-BB73-8123BFFC94F1} = {7726F038-F2DC-4BA6-BB73-8123BFFC94F1}
 	EndProjectSection
@@ -13,6 +13,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibrary.Test", "GeometryLibrary.Test\GeometryLibrary.Test.csproj", "{5FA9420A-7035-4CC1-A3E7-9BB0C923F585}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7726F038-F2DC-4BA6-BB73-8123BFFC94F1} = {7726F038-F2DC-4BA6-BB73-8123BFFC94F1}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{303D70DD-2088-46B5-BFC4-A94A02B5373C}"
+	ProjectSection(SolutionItems) = preProject
+		CreateTables.sql = CreateTables.sql
+		Request.sql = Request.sql
 	EndProjectSection
 EndProject
 Global
